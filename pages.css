@@ -1,0 +1,276 @@
+
+ html {
+    scroll-behavior: smooth;
+    background-color: black;
+        }
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400')
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.about-pg2 {
+    font-size: 1rem;
+    margin: 0;
+    color: black;
+}
+
+.head2 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    margin: 00px 0px 10px 0px;
+    color: #e1e27c;
+    font-size: 1.4rem;
+}
+
+
+
+
+a {
+    background-color: black;
+    text-decoration: none;
+    color: #e1e27c;
+    text-align: center;
+    display: inline-block;
+    transition: all .3s;
+}
+
+a:hover {
+    opacity: .6;
+}
+
+/* Styles for the top-main image */
+.top-main {
+
+
+    background-size: cover;
+    padding: 12rem 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+}
+
+
+
+.list1,
+.list2,
+.list3 {
+    background-color: black;
+}
+
+
+.menu {
+    display: grid;
+    list-style-type: none;
+    padding: 0 0 0 0px;
+    text-transform: uppercase;
+    font-size: 1rem;
+
+    grid-template-columns:
+        15vw 13vw 15vw;
+    grid-template-rows: 1fr;
+}
+
+
+
+.navbar {
+    overflow: hidden;
+
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: black;
+    padding: 14px 16px;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: darkgray;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.logo-img {
+    max-width: 8%;
+    float: right;
+}
+
+
+
+
+#top-img {
+    max-width: 100%;
+
+    background-image: url(images/interview-pic.jpg)
+}
+
+#top-img2 {
+    max-width: 100%;
+
+    background-image: url(images/animation-bck2.jpg)
+}
+
+#top-img3 {
+    max-width: 100%;
+
+    background-image: url(images/filming-pic.jpg)
+}
+
+#top-img4 {
+    max-width: 100%;
+
+    background-image: url(images/ux-backg.jpg)
+}
+
+#top-img5 {
+    max-width: 100%;
+
+    background-image: url(images/esther-profile-front.jpg)
+}
+
+.top-main article p {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.top-main article a {
+    padding: 1rem;
+    margin-top: .75rem;
+}
+
+
+/* projects styles */
+.projects {
+    padding: 2rem;
+    background-color: black;
+}
+
+.projects ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+
+.projects ul li {
+
+    list-style: none;
+
+}
+
+
+.projects ul li figure {
+    max-height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+
+.projects ul li figure img {
+    width: 100%;
+}
+
+.projects ul li figure figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.projects ul li figure figcaption {
+    color: white;
+    padding: .75rem;
+    font-size: 1.25rem;
+}
+
+.projects ul li p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: #666666;
+}
+
+.projects ul li a {
+    padding: .5rem 1rem;
+    margin: .5rem;
+}
+
+
+
+/* footer */
+footer {
+
+    padding: .75rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: .75rem;
+}
+
+* {
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
